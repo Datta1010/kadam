@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 473943700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and valid password",
+            "match": {
+              "location": "Com.StepDefination.LoginPageTest.user_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10076524700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page and verify user is on home page or not?",
+            "match": {
+              "location": "Com.StepDefination.LoginPageTest.user_is_on_home_page_and_verify_user_is_on_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-12T16:44:51.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15927347200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.StepDefination.hooksclass.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Test PIM Page Functionality",
+        "description": "",
+        "id": "test-facebok-functionlity;test-pim-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 472392400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.StepDefination.hooksclass.tearDoun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4599935000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on PIM Link",
+            "match": {
+              "location": "Com.StepDefination.PIMPageTest.user_click_on_pim_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1453065300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Add button in PIM Page",
+            "match": {
+              "location": "Com.StepDefination.PIMPageTest.user_click_on_add_button_in_pim_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283130600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter personal Details in PIM Page add employee Functionality",
+            "match": {
+              "location": "Com.StepDefination.PIMPageTest.user_enter_personal_details_in_pim_page_add_employee_functionality()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3357777500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user fillup more personal details in PIM page Personal Details Functionality",
+            "match": {
+              "location": "Com.StepDefination.PIMPageTest.user_fillup_more_personal_details_in_pim_page_personal_details_functionality()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PIMPage"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 321798300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and valid password",
+            "match": {
+              "location": "Com.StepDefination.LoginPageTest.user_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11228693900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page and verify user is on home page or not?",
+            "match": {
+              "location": "Com.StepDefination.LoginPageTest.user_is_on_home_page_and_verify_user_is_on_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-12T16:45:28.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8017552300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.StepDefination.hooksclass.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Test Admin Page Functionality",
+        "description": "",
+        "id": "test-facebok-functionlity;test-admin-page-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 359794000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.StepDefination.hooksclass.tearDoun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000214800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on Admin page link",
+            "match": {
+              "location": "Com.StepDefination.AdminTest.user_click_on_admin_page_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1293447200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on add button in Admin Page",
+            "match": {
+              "location": "Com.StepDefination.AdminTest.user_click_on_add_button_in_admin_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469730100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "create a new user",
+            "match": {
+              "location": "Com.StepDefination.AdminTest.create_a_new_user()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdminPage"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 305729900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and valid password",
+            "match": {
+              "location": "Com.StepDefination.LoginPageTest.user_enter_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7055294800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page and verify user is on home page or not?",
+            "match": {
+              "location": "Com.StepDefination.LoginPageTest.user_is_on_home_page_and_verify_user_is_on_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-12T16:45:52.792Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11949611500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.StepDefination.hooksclass.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "test My info Page",
+        "description": "",
+        "id": "test-facebok-functionlity;test-my-info-page",
+        "after": [
+          {
+            "result": {
+              "duration": 399637000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.StepDefination.hooksclass.tearDoun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4650631700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on my info page",
+            "match": {
+              "location": "Com.StepDefination.My_Infotest.user_click_on_my_info_page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MyInfo"
+          }
+        ]
+      }
+    ],
+    "name": "Test facebok functionlity",
+    "description": "",
+    "id": "test-facebok-functionlity",
+    "keyword": "Feature",
+    "uri": "file:Com.AllFeature/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="86.385">
+    <testcase classname="Test facebok functionlity" name="Test PIM Page Functionality" time="36.794">
+        <system-out><![CDATA[When user enter valid username and valid password...........................passed
+Then user is on home page and verify user is on home page or not?...........passed
+Then user click on PIM Link.................................................passed
+And user click on Add button in PIM Page....................................passed
+When user enter personal Details in PIM Page add employee Functionality.....passed
+Then user fillup more personal details in PIM page Personal Details Functionality.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test facebok functionlity" name="Test Admin Page Functionality" time="24.702">
+        <system-out><![CDATA[When user enter valid username and valid password...........................passed
+Then user is on home page and verify user is on home page or not?...........passed
+Then user click on Admin page link..........................................passed
+And user click on add button in Admin Page..................................passed
+When create a new user......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test facebok functionlity" name="test My info Page" time="24.372">
+        <system-out><![CDATA[When user enter valid username and valid password...........................passed
+Then user is on home page and verify user is on home page or not?...........passed
+When user click on my info page.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
